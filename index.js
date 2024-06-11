@@ -96,8 +96,8 @@ app.post('/ussd', (req, res) => {
             } else {
                 // Voting option selected
                 response = userLanguages[phoneNumber] === 'en' ? 
-                    `CON Select a candidate:\n1. Ituze Pelouat\n2. Muakama Albertine\n3. Irakoze Durer\n4. Igabe Danlo\n5. Dukuzimana Albert` : 
-                    `CON Hitamo umukandida:\n1. Ituze Pelouat\n2. Muakama Albertine\n3. Irakoze Durer\n4. Igabe Danlo\n5. Dukuzimana Albert`;
+                    `CON Select a candidate:\n1. Mutima\n2. Durer\n3. Ituze\n4. Pelouat\n5. Aurore` : 
+                    `CON Hitamo umukandida:\n1. Mutima\n2. Durer\n3. Ituze\n4. Pelouat\n5. Aurore`;
             }
         } else if (userInput[2] === '2') {
             // View votes option selected
